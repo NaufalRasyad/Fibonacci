@@ -17,6 +17,7 @@ public class Fibonacci {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int jumlah = 0;
         System.out.print("Masukkan Angka : ");
         int angka = new Scanner(System.in).nextInt();
          int[] feb = new int[angka];
@@ -27,8 +28,9 @@ public class Fibonacci {
          }
  
          for(int i=0; i< angka; i++){
-                 System.out.print(feb[i] + " ");
-         }        
+            jumlah=jumlah+feb[i];
+         }
+         System.out.println(jumlah);
     }
     
 }
