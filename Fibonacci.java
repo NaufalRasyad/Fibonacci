@@ -26,7 +26,7 @@ public class Fibonacci {
              feb[i] = feb[i-1] + feb[i-2];
          }
  
-         for(int i=0; i< angka; i++){
+         for(int i=1; i< angka; i++){
                  System.out.print(feb[i] + " ");
          }        
     }
